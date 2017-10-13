@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="3" total="9" passed="6">
+  <reporter-output>
+    <line>
+      <![CDATA[createProduct]]>
+    </line>
+    <line>
+      <![CDATA[editProduct]]>
+    </line>
+    <line>
+      <![CDATA[createUser]]>
+    </line>
+    <line>
+      <![CDATA[editUser]]>
+    </line>
+    <line>
+      <![CDATA[removeUser]]>
+    </line>
+    <line>
+      <![CDATA[createCustomer]]>
+    </line>
+  </reporter-output>
+  <suite name="Suite" duration-ms="60" started-at="2017-10-10T04:06:57Z" finished-at="2017-10-10T04:06:57Z">
+    <groups>
+      <group name="product">
+        <method signature="Product.editProduct()[pri:0, instance:groups.Product@5dfcfece]" name="editProduct" class="groups.Product"/>
+      </group> <!-- product -->
+      <group name="smoke">
+        <method signature="Customer.createCustomer()[pri:0, instance:groups.Customer@6cc4c815]" name="createCustomer" class="groups.Customer"/>
+        <method signature="Product.createProduct()[pri:0, instance:groups.Product@5dfcfece]" name="createProduct" class="groups.Product"/>
+        <method signature="User.createUser()[pri:0, instance:groups.User@56f4468b]" name="createUser" class="groups.User"/>
+      </group> <!-- smoke -->
+      <group name="user">
+        <method signature="User.editUser()[pri:0, instance:groups.User@56f4468b]" name="editUser" class="groups.User"/>
+        <method signature="User.removeUser()[pri:0, instance:groups.User@56f4468b]" name="removeUser" class="groups.User"/>
+      </group> <!-- user -->
+    </groups>
+    <test name="Test" duration-ms="60" started-at="2017-10-10T04:06:57Z" finished-at="2017-10-10T04:06:57Z">
+      <class name="groups.User">
+        <test-method status="PASS" signature="createUser()[pri:0, instance:groups.User@56f4468b]" name="createUser" duration-ms="3" started-at="2017-10-10T09:36:57Z" finished-at="2017-10-10T09:36:57Z">
+          <reporter-output>
+            <line>
+              <![CDATA[createUser]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- createUser -->
+        <test-method status="PASS" signature="editUser()[pri:0, instance:groups.User@56f4468b]" name="editUser" duration-ms="4" started-at="2017-10-10T09:36:57Z" finished-at="2017-10-10T09:36:57Z">
+          <reporter-output>
+            <line>
+              <![CDATA[editUser]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- editUser -->
+        <test-method status="PASS" signature="removeUser()[pri:0, instance:groups.User@56f4468b]" name="removeUser" duration-ms="2" started-at="2017-10-10T09:36:57Z" finished-at="2017-10-10T09:36:57Z">
+          <reporter-output>
+            <line>
+              <![CDATA[removeUser]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- removeUser -->
+      </class> <!-- groups.User -->
+      <class name="groups.Customer">
+        <test-method status="PASS" signature="createCustomer()[pri:0, instance:groups.Customer@6cc4c815]" name="createCustomer" duration-ms="2" started-at="2017-10-10T09:36:57Z" finished-at="2017-10-10T09:36:57Z">
+          <reporter-output>
+            <line>
+              <![CDATA[createCustomer]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- createCustomer -->
+      </class> <!-- groups.Customer -->
+      <class name="groups.Product">
+        <test-method status="PASS" signature="createProduct()[pri:0, instance:groups.Product@5dfcfece]" name="createProduct" duration-ms="11" started-at="2017-10-10T09:36:57Z" finished-at="2017-10-10T09:36:57Z">
+          <reporter-output>
+            <line>
+              <![CDATA[createProduct]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- createProduct -->
+        <test-method status="PASS" signature="editProduct()[pri:0, instance:groups.Product@5dfcfece]" name="editProduct" duration-ms="2" started-at="2017-10-10T09:36:57Z" finished-at="2017-10-10T09:36:57Z">
+          <reporter-output>
+            <line>
+              <![CDATA[editProduct]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- editProduct -->
+      </class> <!-- groups.Product -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
